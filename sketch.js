@@ -60,9 +60,6 @@ function setup() {
   gameOver.scale=0.5;
   restart.visible=false;
   gameOver.visible=false;
-  
-  trex.debug=true;
-  trex.setCollider("circle",0,0,50);
 }
 
 function draw() {
